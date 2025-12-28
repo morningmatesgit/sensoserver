@@ -1,0 +1,123 @@
+# ============================================================================
+# BACKEND (NODE.JS EXPRESS) .GITIGNORE
+# ============================================================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Build outputs
+build/
+dist/
+out/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads directory
+uploads/
+public/uploads/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.cache/
+*.tmp
+*.temp
+
+# Security & Sensitive Data
+config/secrets.js
+config/keys.js
+private/
+secrets/
+*.key
+*.pem
+*.p8
+*.p12
+
+# Deployment
+.vercel
+.netlify
+.firebase/
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+
+# AWS IoT certificates
+certs/
+*.pem
+*.crt
+*.key
